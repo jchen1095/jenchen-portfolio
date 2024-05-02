@@ -6,7 +6,9 @@ body {
 
 nav {
     background-color: transparent;
-    padding: 20px; /* Adjusted padding */
+    padding: 100px; /* Adjusted padding */
+    margin-top: 50px;
+    margin-left: 150px;
     margin-bottom: 20px; /* Added margin to separate from content */
 }
 
@@ -14,7 +16,9 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    
 }
+
 
 nav ul li {
     display: inline;
@@ -33,7 +37,7 @@ nav ul li a:hover {
 .container {
     max-width: 800px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 0px;
 }
 
 .container h1 {
@@ -45,7 +49,10 @@ nav ul li a:hover {
 }
 
 nav ul {
-    padding-left: 150px; /* Adjusted padding to align with content */
+    margin: 0;
+    padding: 0;
+    margin-top: 0; /* Reset top margin */
+    margin-left: 170px; /* Adjusted margin to align with content */
 }
 .headshot {
     max-width: 400px; /* Set maximum width for the headshot */

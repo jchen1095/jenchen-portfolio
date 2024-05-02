@@ -1,27 +1,24 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="case_studies.html">Projects</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </nav>
+import React from 'react';
+import './styles.css'; // Import your CSS file
 
-    <div class="container">
-        <h1>Hello, I'm Jen Chen!</h1>
-        <p><b>Computer Science</b> & <b>pre-med</b> student at <b> Brown University</b> with skills in research, coding, and teaching</p>
-        <img src="headshot.jpg" alt="Your Headshot" class="headshot">
-        
-    </div>
+function About() {
+    return (
+        <div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="case_studies.html">Projects</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
 
-    <script src="script.js"></script>
-</body>
-</html>
+            <div className="container">
+                <h1>Hello, I'm Jen Chen!</h1>
+                <p><b>Computer Science</b> & <b>pre-med</b> student at <b> Brown University</b> with skills in research, coding, and teaching</p>
+                <img src="headshot.jpg" alt="Your Headshot" className="headshot" />
+            </div>
+        </div>
+    );
+}
+
+export default About;
