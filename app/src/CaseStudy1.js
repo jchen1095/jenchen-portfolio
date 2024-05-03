@@ -7,7 +7,7 @@ function CaseStudy1() {
         <div>
             <header>
                 <div className="container">
-                    <h1>Case Study 1</h1>
+                    <h1>Responsive Redesign</h1>
                 </div>
             </header>
 

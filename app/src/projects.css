@@ -47,7 +47,7 @@ nav ul li a:hover {
 nav ul {
     padding-left: 150px; /* Adjusted padding to align with content */
 }
-
+/* 
 .case-study-card {
     border: 1px solid #ccc;
     border-radius: 5px;
@@ -63,8 +63,49 @@ nav ul {
 
 .case-study-card h3 {
     margin-top: 0;
+    color:black;
 }
 
 .case-study-card p {
     margin-bottom: 0;
+    color: black;
+} */
+
+.case-study-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    position: relative;
 }
+
+.case-study-card:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.case-study-card h3,
+.case-study-card p {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    color: white;
+}
+
+.case-study-card:hover h3,
+.case-study-card:hover p {
+    opacity: 1;
+}
+
+/* .case-study-card a {
+    text-decoration: none;
+} */
+
+.imageUrl{
+    max-width: 400px;
+}
+
