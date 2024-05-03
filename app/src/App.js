@@ -25,6 +25,7 @@ function App() {
                         <h1>Hello, I'm Jen Chen!</h1>
                         <p><b>Computer Science</b> & <b>pre-med</b> student at <b> Brown University</b> with skills in research, coding, and teaching</p>
                         <img src={headshot} alt="headshot" className="headshot" />
+                        <p>Picture of me on top of a hill in Athens, Greece</p>
                     </div>} />
                     <Route path="/projects/*" element={<Projects />} />
                     <Route path="/contact" element={<Contact />} />

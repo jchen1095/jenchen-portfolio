@@ -10,11 +10,6 @@ nav {
     margin-bottom: 20px; /* Added margin to separate from content */
 }
 
-nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
 
 nav ul li {
     display: inline;
@@ -50,20 +45,15 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.container h1 {
-    margin-top: 0;
-}
-
-.container h2 {
-    margin-top: 0;
-}
 
 nav ul {
     padding-left: 150px; /* Adjusted padding to align with content */
+}
+
+.hifiimg {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    width: auto;
 }

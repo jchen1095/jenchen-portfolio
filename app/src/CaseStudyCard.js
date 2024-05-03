@@ -14,6 +14,7 @@ function CaseStudyCard({ caseStudyNumber, caseTitle, description, imageUrl }) {
                 <img src={imageUrl} alt={caseTitle} className='image'/>
                 <div className="card-content">
                     <h3 className="card-title">{caseTitle}</h3>
+                    
                     <p className="card-description">{description}</p>
                 </div>
             </div>
