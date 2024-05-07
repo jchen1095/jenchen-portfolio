@@ -16,8 +16,8 @@ function Projects() {
                 <Route path="/case_study_2" element={<CaseStudy2 />} />
             </Routes>
             <div className="case-study-list">
-                <CaseStudyCard caseStudyNumber={1} caseTitle={"Responsive Redesign"} description="Implementation of responsive, re-vamped sticker shop website" imageUrl={responsivePic}/>
-                <CaseStudyCard caseStudyNumber={2} caseTitle={"Iterative Design"} description="Description of Case Study 2" />
+                <CaseStudyCard caseStudyNumber={1} caseTitle={"Responsive Redesign"} description="Implementation of responsive, re-vamped sticker shop website" imageUrl={responsivePic} languages={['HTML', 'CSS', 'Figma']}/>
+                <CaseStudyCard caseStudyNumber={2} caseTitle={"Iterative Design"} description="Description of Case Study 2" languages={['HTML', 'CSS', 'JavaScript']}/>
                 {/* Add more CaseStudyCard components for additional case studies */}
             </div>
         </div>

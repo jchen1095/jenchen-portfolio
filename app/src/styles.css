@@ -3,12 +3,9 @@ body {
     margin: 0;
     padding: 0;
 }
-
 nav {
     background-color: transparent;
-    padding: 100px; /* Adjusted padding */
-    margin-top: 50px;
-    margin-left: 150px;
+    padding: 20px; /* Adjusted padding */
     margin-bottom: 20px; /* Added margin to separate from content */
 }
 
@@ -16,9 +13,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    
 }
-
 
 nav ul li {
     display: inline;
@@ -33,11 +28,10 @@ nav ul li a {
 nav ul li a:hover {
     text-decoration: underline;
 }
-
 .container {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 0px;
+    margin: auto;
+    padding-left: 20px;
 }
 
 .container h1 {
@@ -48,15 +42,29 @@ nav ul li a:hover {
     margin-top: 0;
 }
 
-nav ul {
-    margin: 0;
-    padding: 0;
-    margin-top: 0; /* Reset top margin */
-    margin-left: 170px; /* Adjusted margin to align with content */
-}
 .headshot {
     max-width: 400px; /* Set maximum width for the headshot */
     height: auto; /* Automatically adjust height to maintain aspect ratio */
     margin-bottom: 20px; /* Add margin to separate from other content */
 }
 
+
+.header {
+    margin-top: 50px;
+    margin-left: 300px;
+    top: 0;
+    width: 100%;
+    z-index: 1000; 
+    display: flex;
+    flex-direction: column; /* Change to column layout */
+    align-items: flex-start; /* Align items to the left */
+    background-color: transparent;
+    padding: 10px 0;
+}
+
+.name {
+    margin: 0;
+    padding: 10px 20px;
+    font-size: 1.5em;
+
+}

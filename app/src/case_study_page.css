@@ -1,43 +1,35 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Futura";
     margin: 0;
     padding: 0;
 }
 
-nav {
-    background-color: transparent;
-    padding: 20px; /* Adjusted padding */
-    margin-bottom: 20px; /* Added margin to separate from content */
+p {
+    font-family: "Helvetica", sans-serif; 
 }
 
-
-nav ul li {
-    display: inline;
-    margin-right: 20px;
+.larger-text {
+    font-size: 1.2em;
+    font-family: "Helvetica", sans-serif; 
+}
+.caption{
+    font-size: .8em;
+    font-family: "Helvetica", sans-serif; 
+    text-align: center;
+}
+h2 {
+    font-weight: bold;
+    font-family: "Futura", sans-serif; 
+    font-size: 1.2em; 
 }
 
-nav ul li a {
-    text-decoration: none;
-    color: #333;
+h1 {
+    font-weight: bold;
+    font-family: "Futura-Medium", sans-serif; 
+    font-size: 3em; 
+    
 }
 
-nav ul li a:hover {
-    text-decoration: underline;
-}
-
-.container {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-}
-
-.container h1 {
-    margin-top: 0;
-}
-
-.container p {
-    margin-bottom: 20px;
-}
 
 .case-study-image {
     max-width: 100%;
@@ -45,10 +37,13 @@ nav ul li a:hover {
     margin-bottom: 20px;
 }
 
-
-nav ul {
-    padding-left: 150px; /* Adjusted padding to align with content */
+.hifiimg-container {
+    width: 100%; /* Ensure the container takes full width */
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
 }
+
 
 .hifiimg {
     display: block;
@@ -56,4 +51,14 @@ nav ul {
     max-width: 50%;
     height: auto;
     width: auto;
+}
+
+.results-section {
+    background-color: #333; 
+    color: #fff; 
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
