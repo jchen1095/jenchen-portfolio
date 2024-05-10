@@ -22,7 +22,7 @@ function Projects() {
             <div className="case-study-list">
                 <CaseStudyCard caseStudyNumber={3} caseTitle={"Local Search & Metaheuristics"} description="Description of Case Study 2" languages={['Java']} imageUrl={localSearch}/>
                 <CaseStudyCard caseStudyNumber={1} caseTitle={"Responsive Redesign"} description="Implementation of responsive, re-vamped sticker shop website" imageUrl={responsivePic} languages={['HTML', 'CSS', 'Figma']}/>
-                <CaseStudyCard caseStudyNumber={2} caseTitle={"Iterative Design"} description="Description of Case Study 2" languages={['HTML', 'CSS', 'JavaScript']} imageUrl={iterative}/>
+                <CaseStudyCard caseStudyNumber={2} caseTitle={"Iterative Design"} description="Allowing Warp Users to Connect, Share Tools, and Build Community" languages={['HTML', 'CSS', 'JavaScript']} imageUrl={iterative}/>
                 
                 {/* Add more CaseStudyCard components for additional case studies */}
             </div>

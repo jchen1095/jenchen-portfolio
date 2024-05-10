@@ -1,5 +1,5 @@
 body {
-    font-family: "Futura";
+    font-family: "Helvetica";
     margin: 0;
     padding: 0;
 }
@@ -54,7 +54,7 @@ h1 {
 }
 
 .problem-section {
-    background-color: #243a87; 
+    background-color: #182552; 
     color: #fff; 
     padding: 40px 0;
     /* margin-left:100px;
