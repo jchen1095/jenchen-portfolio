@@ -1,0 +1,66 @@
+body {
+    font-family: "Futura";
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-family: "Helvetica", sans-serif; 
+}
+
+.larger-text {
+    font-size: 1.2em;
+    font-family: "Helvetica", sans-serif; 
+}
+.caption{
+    font-size: .8em;
+    font-family: "Helvetica", sans-serif; 
+    text-align: center;
+}
+h2 {
+    font-weight: bold;
+    font-family: "Futura", sans-serif; 
+    font-size: 1.2em; 
+}
+
+h1 {
+    font-weight: bold;
+    font-family: "Futura-Medium", sans-serif; 
+    font-size: 3em; 
+    
+}
+
+
+.case-study-image {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hifiimg-container {
+    width: 100%; /* Ensure the container takes full width */
+    display: flex;
+    justify-content: center; /* Align items horizontally */
+    align-items: center; /* Align items vertically */
+}
+
+
+.hifiimg {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;
+    height: auto;
+    width: auto;
+}
+
+.problem-section {
+    background-color: #243a87; 
+    color: #fff; 
+    padding: 40px 0;
+    /* margin-left:100px;
+    margin-right:100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}

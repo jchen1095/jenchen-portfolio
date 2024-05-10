@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -66,5 +66,15 @@ nav ul li a:hover {
     margin: 0;
     padding: 10px 20px;
     font-size: 1.5em;
+    font-family: 'futura';
+}
 
+.smaller{
+    font-family: 'Helvetica', sans-serif;
+    /* opacity: .7; */
+}
+
+.bigger{
+    font-family: 'Helvetica', sans-serif;
+    font-size: 1.6em;
 }
