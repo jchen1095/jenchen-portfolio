@@ -13,7 +13,7 @@ p {
     font-family: "Helvetica", sans-serif; 
 }
 .caption{
-    font-size: .8em;
+    font-size: 1em;
     font-family: "Helvetica", sans-serif; 
     text-align: center;
 }
@@ -37,6 +37,16 @@ h1 {
     margin-bottom: 20px;
 }
 
+
+
+.case-study-image-larger {
+    max-width: 80%; /* Adjust the percentage as needed */
+    height: auto;
+    margin: 20px auto;
+    display: block;
+}
+
+
 .hifiimg-container {
     width: 100%; /* Ensure the container takes full width */
     display: flex;
@@ -53,12 +63,30 @@ h1 {
     width: auto;
 }
 
-.results-section {
-    background-color: #333; 
+.highlight-section {
+    background-color: #182552; 
     color: #fff; 
     padding: 40px 0;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+}
+
+.feedback {
+    background-color: #4b1307; 
+    color: #fff; 
+    padding: 40px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.outline{
+    border: 2px solid #182552;
+    padding: 20px;
+}
+.vid{
+    max-width: 100%;
 }

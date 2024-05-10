@@ -26,9 +26,9 @@ function App() {
                 <Routes>
                     <Route path="/" element={<div className="container">
                         <h1>Hello!</h1>
-                        <p className="bigger">I'm a fullstack developer and UI/UX designer located in RI and NJ. I'm also a <b>computer science</b> & <b>pre-med</b> student at <b> Brown University</b> graduating in Spring 2025.
+                        <p className="bigger">I'm a fullstack developer and UI/UX designer located in RI and NJ. I'm also a <b>computer science</b> & <b>pre-med</b> (Sc.B & M.A. candidate) student at <b> Brown University</b> graduating in Spring 2025.
                         </p>
-                        <p className="smaller">My work is in bioinformatics (tool development) and machine learning. I have also had experience as a computational chemist for drug discovery at Astrazeneca. </p>
+                        <p className="smaller">My work is in bioinformatics (tool development) and machine learning. I also have experience as a computational chemistry intern for drug discovery at Astrazeneca. </p>
                         <img src={headshot} alt="headshot" className="headshot" />
                         <p>Picture of me on top of a hill in Athens, Greece</p>
                     </div>} />
