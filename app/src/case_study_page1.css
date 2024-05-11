@@ -10,12 +10,13 @@ p {
 }
 
 ul {
-    font-size:1em;
+    font-size:1.2em;
 }
 
 ol {
     font-size:1.2em;
 }
+
 .larger-text {
     font-size: 1.2em;
     font-family: "Helvetica", sans-serif; 
@@ -31,6 +32,9 @@ h2 {
     font-size: 1.4em; 
 }
 
+ol li {
+    margin-bottom: 20px; 
+}
 
 h1 {
     font-weight: bold;

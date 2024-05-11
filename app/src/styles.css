@@ -88,6 +88,11 @@ nav ul li a:hover {
 
 }
 .colorful3{
-    color: #2f2003;
+    color: #523804;
 
+}
+
+.name-link {
+    text-decoration: none; 
+    color: inherit; 
 }

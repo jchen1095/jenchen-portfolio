@@ -159,7 +159,7 @@ function CaseStudy1() {
             <section >
                 <div className="container">
                     <h2>REFLECTION</h2>
-                    <p>Participating in the complete iterative design process with a distinctive company posed an intriguing challenge and provided a valuable learning experience. This project afforded us the chance to hone our collaborative design skills within a team environment, reflecting the dynamics of cross-functional teams in industry.</p>
+                    <p>Participating in the complete iterative design process with Warp posed an exciting challenge and was a valuable learning experience. This project afforded me the chance to hone my collaborative design skills within a team environment, reflecting the dynamics of cross-functional teams in industry.</p>
                     
                 </div>
             </section>
