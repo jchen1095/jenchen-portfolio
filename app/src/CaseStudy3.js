@@ -3,7 +3,7 @@ import './case_study_page3.css'; // Import your CSS file
 // import caseStudyImage from './case_study_1_image.jpg'; // Import your image
 // import oldartsocked from './artsocked.png';
 import greedy from './greedy.png';
-import pack from './pack.png';
+import pack from './pack2.png';
 import ham from './hamiltonian2.png';
 import radeuc from './radeuc.png';
 import final from './final2.png';
@@ -43,7 +43,7 @@ function CaseStudy3() {
                     
                 </div>
             </section>
-            <section className='highlight'>
+            <section className='final'>
             <div className="container">
                  <h2>THE RESULT</h2>
                 <p>When we applied our solver to the test, we saw our vehicle routing drastically improve and cut distance and cost:</p>
@@ -179,7 +179,7 @@ function CaseStudy3() {
             </div>
          </section>
 
-         <section >
+         <section section className='highlight'>
             <div className="container">
                  <h2>FUTURE STEPS</h2>
                 <p>In the future, to improve on our current model, we hope to:</p>
