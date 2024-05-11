@@ -107,16 +107,15 @@ function CaseStudy2() {
                     <p>In the future, I hope to get the sticker PNGs working so that customers can have fun "putting stickers" on the website interface.</p>
                 </div>
             </section>
-        <section>
+        <section className="results-section">
             <div className="container">
                 <h2>REFLECTING ON THE OUTCOME</h2>
                 <p>This project was challenging for both my coding and design skills, but at the same time incredibly rewarding. Below are my major takeaways:</p>
-                <ul>
-                <li>Visual Hierarchy and Gestalt Principles are crucial for establishing an organized and effective structure for a website and its information</li>
-                <li>Have multiple steps/layers in development, with different levels of complexity, is very helpful. Following the flow of creating sketches -> Lo-fi wireframes -> Hi-fi mockups before beginning to code the website saved me a lot of time and work in the long run as general designs were already developed so transitioning these design ideas to code was made as straightforward as possible.</li>
-                <li>Accessibility design choices should be checked before website development. I did not check if my colors were high-contrast enough before developing the website, so I had to go back and find new colors and implement these afterward.</li>
-                <li>Thinking ahead during the design process on how to use containers to store website components is a helpful strategy to further enhance the transition from design to code later on. This can be done in Figma by creating different frames for different containers.</li>
-                </ul>
+                <ol>
+                <li><strong>Visual Hierarchy and Gestalt Principles</strong> are crucial for establishing an organized and effective structure for a website and its information</li>
+                <li><strong>Having multiple steps/layers in development</strong>, with different levels of complexity, is helpful for several reasons. Creating sketches, then wireframes, then mockups before beginning to code the website saved me a lot of time and work in the long run as transitioning these design ideas to code was made as straightforward as possible.</li>
+                <li><strong>Accessibility design choices should be checked </strong>before website development. I did not check if my colors were high-contrast enough before developing the website, so I had to go back and find new colors and implement these afterward.</li>
+                </ol>
                     
             </div>
         </section>

@@ -25,7 +25,7 @@ ul {
 h2 {
     font-weight: bold;
     font-family: "Futura", sans-serif; 
-    font-size: 1.2em; 
+    font-size: 1.4em; 
 }
 
 h1 {
@@ -45,7 +45,7 @@ h1 {
 
 
 .case-study-image-larger {
-    max-width: 80%; /* Adjust the percentage as needed */
+    max-width: 90%; /* Adjust the percentage as needed */
     height: auto;
     margin: 20px auto;
     display: block;
@@ -89,9 +89,12 @@ h1 {
 }
 
 .outline{
-    border: 2px solid #182552;
+    border: 2px solid #840404;
     padding: 20px;
 }
 .vid{
     max-width: 100%;
+}
+ol {
+    font-size:1.2em;
 }

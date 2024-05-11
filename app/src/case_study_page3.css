@@ -11,6 +11,12 @@ p {
 }
 
 ul {
+    font-family: "Helvetica", sans-serif; 
+    font-size:1.2em;
+}
+
+ol {
+    font-family: "Helvetica", sans-serif; 
     font-size:1.2em;
 }
 
@@ -26,7 +32,7 @@ ul {
 h2 {
     font-weight: bold;
     font-family: "Futura", sans-serif; 
-    font-size: 1.2em; 
+    font-size: 1.4em; 
 }
 
 h1 {
@@ -61,8 +67,20 @@ h1 {
     width: auto;
 }
 
-.result-section {
+.highlight {
     background-color: #182552; 
+    color: #fff; 
+    padding: 40px 0;
+    /* margin-left:100px;
+    margin-right:100px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.final {
+    background-color:#4b1307; 
     color: #fff; 
     padding: 40px 0;
     /* margin-left:100px;

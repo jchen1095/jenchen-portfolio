@@ -67,6 +67,7 @@ nav ul li a:hover {
     padding: 10px 20px;
     font-size: 1.5em;
     font-family: 'futura';
+
 }
 
 .smaller{
@@ -77,4 +78,16 @@ nav ul li a:hover {
 .bigger{
     font-family: 'Helvetica', sans-serif;
     font-size: 1.6em;
+}
+.colorful{
+    color: #485e0c;
+
+}
+.colorful2{
+    color: #282c46;
+
+}
+.colorful3{
+    color: #2f2003;
+
 }

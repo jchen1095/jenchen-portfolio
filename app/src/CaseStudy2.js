@@ -54,7 +54,7 @@ function CaseStudy1() {
                     </p>
                     <img src={sketch} alt="Sketches for the community page" className="case-study-image" />
                     <div className="outline">
-                    <p>General Takeaways:</p>
+                    <p><strong>General Takeaways:</strong></p>
                     <ul>
                         <li>Vertical sidebar for the community function seems to be most consistent with the other features of Warp, such as WarpAI and Warp Drive</li>
                         <li>Everyone on the team agreed that there should be a search function as well as other post features such as likes/downloads</li>
@@ -68,8 +68,8 @@ function CaseStudy1() {
                     <p>For first design, the team decided that priorities should include:
                     </p>
                     <ul>
-                        <li>Maximizing whitespace to keep the terminal visible, catering to the needs of engineers who often work with multiple components open (Drive, AI, etc.)</li>
-                        <li>Alignment and visual hierarchy, considering limited space for each component due to the consistent terminal view</li>
+                        <li><strong>Maximizing whitespace</strong> to keep the terminal visible, catering to the needs of engineers who often work with multiple components open (Drive, AI, etc.)</li>
+                        <li><strong>Alignment and visual hierarchy</strong>, considering limited space for each component due to the consistent terminal view</li>
                     </ul>
                     <p>Despite the abundance of information, the goal was to maintain an organized and navigable user experience.</p>
                     <p><strong>We decided on 3 main features:</strong></p>
@@ -103,13 +103,13 @@ function CaseStudy1() {
                     <ul>
                         <li>After hearing that users might struggle to create their own tags when publishing tools, we noted that the publish modal for tools should feature auto-generated tags</li>
                     </ul>
-                    <p>After implementing these changes into our original wireframes, we moved to deveop more detailed and realistic mock-ups of the final product.</p>
+                    <p>After implementing these changes into our original wireframes, we moved to develop more detailed and realistic mock-ups of the final product.</p>
                 </div>
             </section>
             <section>
                 <div className="container">
                     <h2>FINAL DESIGN</h2>
-                    <p>Before developing our detailed and realistic final deign flows, we developed a visual design style guide based on the initial rough style guide/brand kit provided by Warp. This enabled our team to grasp the intended visual language outlined by the client and to produce cohesive designs.</p>
+                    <p>We developed a visual design style guide based on the initial rough style guide/brand kit provided by Warp. This enabled our team to grasp the intended visual language outlined by the client and to produce cohesive designs.</p>
                     <img src={itstyle} alt="Visual Style Guide" className="case-study-image" />
                     
                 </div>
@@ -117,6 +117,7 @@ function CaseStudy1() {
             <div className="container">
                 <div>
                 <h2>FINAL FLOWS</h2>
+                <p>The fully colored, detailed version of our design flows.</p>
                 <p>Below is the walkthrough for the community side bar component.</p>
                     <video controls className='vid'>
                     <source src={commWarpMov} />
@@ -136,7 +137,7 @@ function CaseStudy1() {
                 </div>
             </section>
 
-            <section>
+            {/* <section>
                 <div className="container">
                     <h2>FINAL CLIENT FEEDBACK</h2>
                     <p>We concluded this project by meeting with Warp and presenting our final prototypes. We received mostly positive feedback which was encouraging and exciting. There were a few key points of feedback to address in our future designs:</p>
@@ -153,7 +154,7 @@ function CaseStudy1() {
                     <p>To finalize our work, we further implemented the feedback from our final meeting with Warp:</p>
                     
                 </div>
-            </section>
+            </section> */}
 
             <section >
                 <div className="container">

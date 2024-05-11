@@ -21,7 +21,7 @@
 }
 
 .case-study-card:hover .image {
-    filter: brightness(.4); /* Darken the image on hover */
+    filter: brightness(.2); /* Darken the image on hover */
 }
 
 .case-study-card::before {
