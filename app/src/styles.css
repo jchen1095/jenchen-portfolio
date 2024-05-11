@@ -43,7 +43,7 @@ nav ul li a:hover {
 }
 
 .headshot {
-    max-width: 400px; /* Set maximum width for the headshot */
+    max-width: 700px; /* Set maximum width for the headshot */
     height: auto; /* Automatically adjust height to maintain aspect ratio */
     margin-bottom: 20px; /* Add margin to separate from other content */
 }
