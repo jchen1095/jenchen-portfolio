@@ -36,7 +36,7 @@ function CaseStudy2() {
             <section>
                 <div className="container">
                     <h2>THE PROBLEM & RESEARCH</h2>
-                    <p>Unfortunately, the pre-existing website is not easy to use. <strong>In the words of one customer, "the website reads more like a blog than a store, I was confused when I first got on the website if I was at the right place." </strong>
+                    <p>Unfortunately, the pre-existing website is not easy to use. From the responses of the business's previously conducted survey of customers' experience with the website, <strong>in the words of one customer, "the website reads more like a blog than a store-- I was confused when I first got on the website if I was at the right place." </strong>
                     
                     </p>
                     
@@ -68,31 +68,34 @@ function CaseStudy2() {
                     <p>Below is the final implementation of this website.</p>
                     <img src={newartsocked} alt="New artsocked website preview" className="case-study-image" />
                     <img src={newartsocked2} alt="New artsocked website preview" className="case-study-image" />
-                    <p>Notable changes include:</p>
+                    <p><strong>Notable changes include:</strong></p>
                     <ul>
-                        <li>Higher contrast colors and larger font</li>
-                        <li>Aria labels and alt tags when appropriate</li>
-                        <li>Centered text, which better faciltates reading and navigation</li>
-                        <li>Larger buttons</li>
-                        <li>"favorites" carosel label is centered and larger in font size</li>
-                        <li>"favorites" carosel item cards are larger and easier to see</li>
+                        <li>Higher contrast colors and larger font.</li>
+                        <li>Aria labels and alt tags when appropriate.</li>
+                        <li>Centered text, which better faciltates reading and navigation.</li>
+                        <li>Larger buttons.</li>
+                        <li>"Favorites" carosel label is centered and larger in font size.</li>
+                        <li>"Favorites" carosel item cards are larger and easier to see.</li>
                     </ul>
                 </div>
             </section>
             <section>
             <div className="container">
                 <h2>THE PROCESS</h2>
-                <p>I first created a rough sketch of what the layout for the new website should look like. This sketch was colorless and mainly to visualize the general components. Lots of comments were added:</p>
+                <p>I first created a rough sketch of what the layout for the new website should look like. This sketch was colorless and mainly to visualize the general components. Lots of comments were added as I assessed the website in-depth (much of the comments' content was described above in the 'problems' section):</p>
                 <img src={lofipc} alt="Sketch for the PC version of the new website" className="lofi" />
                 
                 <p>After creating the sketch, I created mockups of the desktop, tablet, and mobile renditions of the new website in full color and detail. I added sticker PNGs that I wanted to be 'movable' using the cursor to mimick the 'sticker experience' virtually.</p>
+                <p>My main priorities were <strong>implementing a robust visual hierarchy</strong> and <strong>simplifying the space</strong> by grouping items together spatially and removing the extensive white space.</p>
                 <div className="hifiimg-container">
                     <img src={hifipc} alt="Mockup for the PC version of the new website" className="hifiimg" />
                     <img src={hifiphone} alt="Mockup for the phone version of the new website" className="hifiimg" />
                     
                 </div>
-
+                
                 <p class='caption'>The desktop (left) and mobile (right) final sketch renditions</p>
+                <p><strong>A significant change</strong> that I made between the sketches and the final mockup was moving the "favorites" item carosel to underneath the header, and further separated by a simple divider. I felt that this was necessary in order to avoid overcrowding the landing section, as well as provide enough space for users to comfortably browse the product carosel.</p>
+
                 <p>In order to maintain uniformity, I also created a new visual style guide for the website:</p>
                 <img src={vsguide} alt="Visual Style guide of colors and components in Figma" className="hifiimg" />
                 <p>This style guide is especially important because a lot of the company's original color palette was not WebAIM Wave approved, in other words the colors were not high contrast enough. The new, high-contrast colors are included in the style guide.</p>
@@ -101,7 +104,7 @@ function CaseStudy2() {
         <section>
                 <div className="container">
                     <h2>RESPONSIVE IMPLEMENTATION</h2>
-                    <p>Making the website responsive involved a lot of Inspect-using and playing around with the dimensions to make sure that all the items are still properly aligned at different frame dimensions.</p>
+                    <p>Making the website responsive involved a lot of Inspect-using and playing around with the dimensions to make sure that all the items are still properly aligned at different frame dimensions. In general, my implementation process went smoothly because of finalized mockup was thorough and detailed.</p>
                     <p>If you open the webpage in desktop and decrease your window width, the navbar will convert to a hamburger menu as indicated in the mockups.</p>
                     <img src={imp} alt="Mobile implementation" className="hifiimg" />
                     <p>In the future, I hope to get the sticker PNGs working so that customers can have fun "putting stickers" on the website interface.</p>
