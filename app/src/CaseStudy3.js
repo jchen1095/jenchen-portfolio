@@ -9,6 +9,7 @@ import radeuc from './radeuc.png';
 import final from './final2.png';
 import hillClimb from './hillclimb.png';
 import opt from './2opt.png';
+import proj5 from './proj5.png';
 
 
 function CaseStudy3() {
@@ -31,7 +32,7 @@ function CaseStudy3() {
                 </div>
             </section>
 
-            <section className="problem-section">
+            <section >
                 <div className="container">
                     <h2>THE PROBLEM</h2>
                     <p>Imagine you run a company with a physical product. The facilities are now open and ready to ship, and customers are eagerly awaiting their orders. Your vehicle rentals have already been finalized. Business is booming!
@@ -42,6 +43,16 @@ function CaseStudy3() {
                     
                 </div>
             </section>
+            <section className='result-section'>
+            <div className="container">
+                 <h2>THE RESULT</h2>
+                <p>When we applied our solver to the test, we saw our vehicle routing drastically improve and cut distance and cost:</p>
+                <img src={proj5} alt="Two graph pictures depicting improving routes" className="case-study-image" />
+                    {/* <img src={newartsocked} alt="New artsocked website preview" className="case-study-image" /> */}
+                    <p className='caption'>Two pictures depicting the initial route solution (left) and the final solution after running the optimization solver (right)</p>
+                    <p>The initial cost was $1358, and the final cost was $874. That is a significant change.</p>
+            </div>
+         </section>
             <section >
                 <div className="container">
                     <h2>CONSTRAINTS</h2>

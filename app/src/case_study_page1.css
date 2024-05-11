@@ -6,7 +6,13 @@ body {
 
 p {
     font-family: "Helvetica", sans-serif; 
+    font-size:1.2em;
 }
+
+ul {
+    font-size:1.2em;
+}
+
 
 .larger-text {
     font-size: 1.2em;

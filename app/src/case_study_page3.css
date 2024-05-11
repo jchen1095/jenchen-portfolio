@@ -1,11 +1,17 @@
 body {
     font-family: "Helvetica";
+    
     margin: 0;
     padding: 0;
 }
 
 p {
     font-family: "Helvetica", sans-serif; 
+    font-size:1.2em;
+}
+
+ul {
+    font-size:1.2em;
 }
 
 .larger-text {
@@ -55,7 +61,7 @@ h1 {
     width: auto;
 }
 
-.problem-section {
+.result-section {
     background-color: #182552; 
     color: #fff; 
     padding: 40px 0;

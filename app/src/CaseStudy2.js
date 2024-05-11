@@ -107,26 +107,36 @@ function CaseStudy1() {
                 </div>
             </section>
             <section>
-            <div className="container">
-                <h2>FINAL DESIGN</h2>
-                <p>Before developing our detailed and realistic final deign flows, we developed a visual design style guide based on the initial rough style guide/brand kit provided by Warp. This enabled our team to grasp the intended visual language outlined by the client and to produce cohesive designs.</p>
-                <img src={itstyle} alt="Visual Style Guide" className="case-study-image" />
-                <p><strong>Below are our final deign flows:</strong></p>
-                <video controls className='vid'>
-                <source src={commWarpMov} />
-                Your browser does not support the video tag.
-                </video>
-                <video controls className='vid'>
-                <source src={publishMov} />
-                Your browser does not support the video tag.
-                </video>
-                <video controls className='vid'>
-                <source src={profileMov} />
-                Your browser does not support the video tag.
-                </video>
-            </div>
-
+                <div className="container">
+                    <h2>FINAL DESIGN</h2>
+                    <p>Before developing our detailed and realistic final deign flows, we developed a visual design style guide based on the initial rough style guide/brand kit provided by Warp. This enabled our team to grasp the intended visual language outlined by the client and to produce cohesive designs.</p>
+                    <img src={itstyle} alt="Visual Style Guide" className="case-study-image" />
+                    
+                </div>
             <section className='feedback'>
+            <div className="container">
+                <div>
+                <h2>FINAL FLOWS</h2>
+                <p>Below is the walkthrough for the community side bar component.</p>
+                    <video controls className='vid'>
+                    <source src={commWarpMov} />
+                    Your browser does not support the video tag.
+                    </video>
+                <p>Here is the walkthrough for the tool publishing workflow.</p>
+                    <video controls className='vid'>
+                    <source src={publishMov} />
+                    Your browser does not support the video tag.
+                    </video>
+                <p>Finally, the walkthrough for the profile component, including editing profile and tools.</p>
+                    <video controls className='vid'>
+                    <source src={profileMov} />
+                    Your browser does not support the video tag.
+                    </video>
+                </div>
+                </div>
+            </section>
+
+            <section>
                 <div className="container">
                     <h2>FINAL CLIENT FEEDBACK</h2>
                     <p>We concluded this project by meeting with Warp and presenting our final prototypes. We received mostly positive feedback which was encouraging and exciting. There were a few key points of feedback to address in our future designs:</p>
