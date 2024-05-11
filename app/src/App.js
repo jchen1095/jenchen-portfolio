@@ -28,7 +28,7 @@ function App() {
                         <h1>Hello!</h1>
                         <p className="bigger">I'm a fullstack developer and UI/UX designer located in RI and NJ. I'm also a <b className='colorful'>computer science</b> & <b className='colorful2'>pre-med</b> (Sc.B & M.A. candidate) student at <b className='colorful3'> Brown University</b> graduating in Spring 2025.
                         </p>
-                        <p className="smaller">My work is in bioinformatics (tool development) and machine learning. I'm interested in everything from AI to drug discovery to botany (I'm always happy to discuss what houseplants would be best suited your needs :-))</p>
+                        <p className="smaller">My work spans in bioinformatics (tool development), design, and machine learning. I'm interested in everything from AI to drug discovery to botany (I'm always happy to discuss what houseplants would be best suited your needs :-))</p>
                         <img src={headshot} alt="headshot" className="headshot" />
                         <p>Picture of me on top of a hill in Athens, Greece.</p>
                     </div>} />
