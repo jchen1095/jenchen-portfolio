@@ -13,8 +13,8 @@ p {
     font-family: "Helvetica", sans-serif; 
 }
 .caption{
-    font-size: .8em;
-    font-family: "Helvetica", sans-serif; 
+    font-size: 1em;
+    font-family: "futura", sans-serif; 
     text-align: center;
 }
 h2 {
@@ -34,14 +34,16 @@ h1 {
 .case-study-image {
     max-width: 100%;
     height: auto;
-    margin-bottom: 20px;
+    margin: 20px auto;
+    display: block;
+  
 }
 
 .hifiimg-container {
-    width: 100%; /* Ensure the container takes full width */
+    width: 100%;
     display: flex;
-    justify-content: center; /* Align items horizontally */
-    align-items: center; /* Align items vertically */
+    justify-content: center; 
+    align-items: center; 
 }
 
 

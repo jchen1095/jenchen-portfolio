@@ -4,7 +4,12 @@ import './case_study_page3.css'; // Import your CSS file
 // import oldartsocked from './artsocked.png';
 import greedy from './greedy.png';
 import pack from './pack.png';
-import ham from './hamiltonian.png';
+import ham from './hamiltonian2.png';
+import radeuc from './radeuc.png';
+import final from './final2.png';
+import hillClimb from './hillclimb.png';
+import opt from './2opt.png';
+
 
 function CaseStudy3() {
     return (
@@ -42,12 +47,12 @@ function CaseStudy3() {
                     <h2>CONSTRAINTS</h2>
                     <p>We're working with some limitations:
                     <ul>
-                        <li>You are limited by the <strong>number of vehicles you rented</strong></li>
-                        <li>Each vehicle has a set <strong>capacity</strong> that you cannot violate</li>
-                    <li>You can only visit each customer <strong>once</strong></li>
-                    <li>Each customer has  a location on the x,y coordinate plane, along with a unique demand value that your vehicle's load must satisfy</li>
-                    <li>Each customer must be satisifed</li>
-                    <li>Every vehicle must start and end at the origin (the facility)</li>
+                        <li>You are limited by the <strong>number of vehicles you rented.</strong></li>
+                        <li>Each vehicle has a set <strong>capacity</strong> that you cannot violate.</li>
+                    <li>You can only visit each customer <strong>once</strong>.</li>
+                    <li>Each customer has  a location on the x,y coordinate plane, along with a unique demand value that your vehicle's load must satisfy.</li>
+                    <li>Each customer must be satisifed.</li>
+                    <li>Every vehicle must start and end at the origin (the facility).</li>
                      </ul>
                     </p>
                 </div>
@@ -61,10 +66,8 @@ function CaseStudy3() {
                     <p>Our answer: hamiltonian paths</p>
                     
                     <img src={ham} alt="Hamiltonian Path Example Photo" className="case-study-image" />
-                    <p>
-                        Photo from <a href="https://www.geeksforgeeks.org/hamiltonian-path-using-dynamic-programming/" target="_blank">
-                            GeeksforGeeks
-                        </a>
+                    <p className='caption'>
+                      The above picture illustrates a hamiltonian path crafted from the below sequence of numbers.  
                     </p>
                     <p>Since hamiltonian paths visit each node only once, it is the perfect way to represent each route taken by a vehicle. Thus, we solve our tests by first taking a permutation of the locations, and then greedily assigning each location to a vehicle such that all locations are visited only once.</p>
                     <img src={greedy} alt="Visuaization of assigning locations to routes" className="case-study-image" />
@@ -86,7 +89,8 @@ function CaseStudy3() {
                     <p><strong>Euclidean:</strong> Sorting all customers by their distance from the origin from least to greatest distance.</p>
                     <p><strong>Random:</strong> Randomly permuating the list of all customers and conducting a greedy acceptance of locations into vehicles.</p>
                     <p><strong>MST:</strong> Searcing for any minimum spanning tree that can be created from the list of customers.</p>
-                    
+                    <img src={radeuc} alt="Radial Greedy Visualization (left) and Euclidean Distance Greedy (right)" className="case-study-image" />
+                    <p className='caption'>Radial Greedy Visualization (left) and Euclidean Distance Greedy Visualization (right). It is clear from the visualization that radial offers a more straightforward route and is likely to be more optimal.</p>
                 </div>
             </section>
             <section >
@@ -101,8 +105,8 @@ function CaseStudy3() {
                     </ul> */}
                     <p>There are two parts that continuously run in a cycle until a solution is found</p>
                     <ol>
-                        <li> Iterating through the vehicles and filling any empty space with unassigned locations when possible</li>
-                        <li> Replacing gaps & assigned locations with an unassigned location as long as this switch reduces the remaining space in vehicles </li>
+                        <li> Iterating through the vehicles and filling any empty space with unassigned locations when possible.</li>
+                        <li> Replacing gaps & assigned locations with an unassigned location as long as this switch reduces the remaining space in vehicles. </li>
                     </ol>
                     <img src={pack} alt="Packing Algorithm Illustration" className="case-study-image" />
                     {/* <img src={newartsocked} alt="New artsocked website preview" className="case-study-image" /> */}
@@ -111,45 +115,64 @@ function CaseStudy3() {
             <section>
             <div className="container">
                 <h2>NEIGHBORHOOD SEARCHING</h2>
-                <ul>
-                        <li>Random Two Exchange</li>
-                        <li>Full Two Exchange</li>
-                        <li>2Opt</li>
-                    </ul>
-                <p><strong>Random Two Exchange</strong></p>
-                <p><strong>Full Two Exchange</strong></p>
-                <p><strong>2Opt</strong></p>
-                <p class='caption'>The desktop (left) and mobile (right) final sketch renditions</p>
+                <p>We applied local neighborhood search to our initial solutions, which are optimization methods that iteratively explores nearby solutions to improve the current solution's quality.</p>
+                <p><strong>Random Two Exchange: </strong>Randomly selects pairs of elements and swaps their positions to explore new solutions.</p>
+                <p><strong>Full Two Exchange:</strong> Examines all possible pairs of elements, swaps the elements in route, and returns the most optimal solutions after calculating the objectives on all swapped solutions.</p>
+                <p><strong>2Opt:</strong> Improves the quality of a solution by iteratively removing two edges from the current tour and reconnecting them in a different way, resulting in shorter tour lengths.</p>
+                <img src={opt} alt="Visualization of the 2opt exchange" className="case-study-image" />
+                <p class='caption'>The left shows the graph before swapping, and the right displays the graph after swapping. As the images describe, this will often result in a more optimal solution especially if 'crosses' are uncrossed.</p>
             </div>
         </section>
         <section >
                 <div className="container">
                     <h2>METAHEURISTICS</h2>
-                    <p><strong>Hill Climb</strong></p>
-                    <p><strong>Simulated Annealing</strong></p>
-                    {/* <img src={newartsocked} alt="New artsocked website preview" className="case-study-image" /> */}
+                    <p><strong>Hill Climb: </strong>Iteratively explores neighboring solutions, selecting the best/first/nth one in each step, aiming to ascend toward the optimal solution.</p>
+
+                    <p><strong>Simulated Annealing</strong>: inspired by the annealing process in metallurgy, which probabilistically accepts worse solutions early on, gradually decreasing as the search progresses, allowing exploration of the solution space more effectively.
+                    <p>Some observations:</p>
+</p>                <ul>
+                    <li>
+                    This strategy frequently did not work as well as hill climb.
+                    </li>
+                    <li>In our experience, accepting less optimal solutions would make the algorithm search in a neighborhood with higher objectives than the initial solution for a long time.</li>
+                    </ul>
+                    <img src={hillClimb} alt="Box plots of how well different hill climb versions worked on the tests" className="case-study-image" />
+                    <p className='caption'>We plotted the mean objective value of all the tests ran on different hill climb searching heuristics. From the above graph, we concluded that "Nth-fit" hill climbing was consistently the most successful. </p>
+                    
                 </div>
             </section>
         <section >
             <div className="container">
                  <h2>WHAT WORKED BEST</h2>
-                <p>The final implementation of this website</p>
+                <p>Below we plotted the efficiency of all of our initial solutions:</p>
+                <img src={final} alt="Box plot evaluations and comparisons of all initial solutions" className="case-study-image" />
                     {/* <img src={newartsocked} alt="New artsocked website preview" className="case-study-image" /> */}
+                    <p>Even though random generation took the least amount of time, the radial initial solution generation produced a faster and more optimal solution, and thus was the most comprehensive initial solution generation technique. </p>
             </div>
          </section>
          <section >
             <div className="container">
                  <h2>TAKEAWAYS</h2>
-                <p>The final implementation of this website</p>
+                <p>In addition to our above observations, we concluded that:</p>
+                <ul>
+                    <li>MST, Radial, Euclidean all produce relatively the same solutions no matter how many times you call it.</li>
+                    <li>Repacking Step 3 takes about the same amount of time as Repacking Step 2, and it is more effective.</li>
+                </ul>
                     {/* <img src={newartsocked} alt="New artsocked website preview" className="case-study-image" /> */}
             </div>
          </section>
 
          <section >
             <div className="container">
-                 <h2>CITATIONS</h2>
-                <p>The final implementation of this website</p>
-                    {/* <img src={newartsocked} alt="New artsocked website preview" className="case-study-image" /> */}
+                 <h2>FUTURE STEPS</h2>
+                <p>In the future, to improve on our current model, we would hope to:</p>
+                <ul>
+                    <li>Add randomization to MST/Radial/Euclidean initial solution generation.</li>
+                    <li>Create a placement algorithm during neighborhood exchanges (place swapped locations optimally).</li>
+                    <li>Create a Euclidean Nearest Neighbors algorithm for generating an initial solution.</li>
+                    <li>Adjust simulated annealing to accept less higher-cost solutions.</li>
+                </ul>
+                  
             </div>
          </section>
     

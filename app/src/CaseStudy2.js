@@ -2,6 +2,7 @@ import React from 'react';
 import './case_study_page2.css'; // Import your CSS file
 // import caseStudyImage from './case_study_1_image.jpg'; // Import your image
 import sketch from './sketch.png';
+
 import drive from './drive.png';
 import publish from './publish.png';
 import comm from './comm.png';
@@ -97,7 +98,7 @@ function CaseStudy1() {
                         <li>In next steps, incorporate the same profile view from Warp Drive into the community page</li>
                         <li>Client also requested for options for a user to install, uninstall, and rate a tool</li>
                     </ul>
-                    <p>The final implementation of this website</p>
+                    
                     <h3>From peers:</h3>
                     <ul>
                         <li>After hearing that users might struggle to create their own tags when publishing tools, we noted that the publish modal for tools should feature auto-generated tags</li>
