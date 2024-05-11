@@ -164,6 +164,19 @@ function CaseStudy1() {
                 </div>
             </section>
 
+            <section className="highlight-section">
+                <div className="container">
+                    <h2>FUTURE STEPS</h2>
+                    <p>Further improvements that we could make to our designs, in alignment with the Warp designers' final feedback on our workflows, include the following:</p>
+                    <ul>
+                    <li>Adjusting the 'tags' and 'buttons' in Figma so that they are distinct visually and so that their <strong>appearances align with their function</strong> (for example, pill-box shapes for 'tags' and shadows on 'buttons' to make them look clickable).</li>
+                    <li>Adding additional functionality or creating spaces in Community for <strong>command-line tools</strong>, which require additional features.</li>
+                    <li><strong>Expanding the tool previews</strong> in the community tab so that users can view even more 'preview'--including code and further descriptions of the product.</li>
+                    </ul>
+                    
+                </div>
+            </section>
+
         </section>
             
         </div>
